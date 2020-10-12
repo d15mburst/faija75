@@ -1,49 +1,49 @@
 body {
-  background-color: #e8ffff;
+  background-color: #a6f6f1;
   margin: 0;
   text-align: center;
 }
 
 h1 {
-  font-family: 'Sacramento', cursive, sans-serif;
+  font-family: 'Dancing Script', cursive;
+  font-size: 8rem;
   margin: 0 auto;
+  padding-top: 1rem;
 }
 
 h3 {
- font-family: robotoRegular,"Helvetica Neue",Arial,sans-serif;
- margin: 0;
- vertical-align: middle;
+  font-family: 'Dancing Script', cursive;
+  font-size: 3rem;
+  margin: 0 auto;
+  padding-top: 2rem;
 }
 
 a {
   color: blue;
-  font-family: Montserrat, sans-serif;
 }
 
 div {
+  vertical-align: middle;
   width: 100%;
 }
 
-iframe {
+video {
   vertical-align: middle;
-  height: 100%;
-  width: 100%%;
-  margin: 40px auto;
+  margin: 0 auto;
 }
 
 .top-container {
   background-color: #a6f6f1;
-  height: 250px;
+  height: 24rem;
 }
 
 .middle-container {
-  background-color: #e8ffff;
   height: auto;
-  text-align: center;
 }
 
 .bottom-container {
-  background-color: #41aea9;
-  margin-top: 0;
-  height: 200px;
+  background-color: #a6f6f1;
+  font-family: 'Merriweather Sans', sans-serif;
+  padding-top: 2rem;
+  height: 5rem;
 }
