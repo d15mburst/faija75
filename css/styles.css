@@ -1,60 +1,49 @@
-@font-face {
-   font-family: robotoRegular;
-   src: url("fonts/Roboto-Regular.ttf");
-}
-
 body {
+  background-color: #e8ffff;
   margin: 0;
+  text-align: center;
 }
 
 h1 {
-  font-family: robotoRegular,Arial,sans-serif;
-  text-align: center;
-  margin-top: 0;
+  font-family: 'Sacramento', cursive, sans-serif;
+  margin: 0 auto;
 }
 
 h3 {
- font-family: Helvetica Neue,Arial,sans-serif;
+ font-family: robotoRegular,"Helvetica Neue",Arial,sans-serif;
  margin: 0;
- padding-top: 80px;
- text-align: center;
+ vertical-align: middle;
 }
 
 a {
   color: blue;
+  font-family: Montserrat, sans-serif;
+}
+
+div {
+  width: 100%;
 }
 
 iframe {
-  margin-top: 35px;
-  margin-bottom: 35px;
+  vertical-align: middle;
+  height: 100%;
+  width: 100%%;
+  margin: 40px auto;
 }
 
 .top-container {
   background-color: #a6f6f1;
-  height: 200px;
+  height: 250px;
 }
 
 .middle-container {
   background-color: #e8ffff;
-  height: 250px;
+  height: auto;
   text-align: center;
-  width: 100%;
 }
 
 .bottom-container {
   background-color: #41aea9;
   margin-top: 0;
-  height: 100px;
-  width: 100%;
-}
-
-.footer {
-  background-color: #e8ffff;
-  margin-top: 0;
-  height: 117px;
-  width: 100%;
-}
-
-.pro {
-  text-decoration: underline;
+  height: 200px;
 }
